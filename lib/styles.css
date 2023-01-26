@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(26, 29, 41);
+    font-family: 'Montserrat', sans-serif;
+} 
+
+header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.navbar {
+    margin-top: .5%;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 80%;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://static-assets.bamgrid.com/product/disneyplus/images/logo.1a56f51c764022ee769c91d894d44326.svg");
+}
+
+.navbarLinks {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 2%;
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.home::before {
+    content: url(img/home.png);
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -2px;
+    left: -8px;
+    filter: invert(100%);
+    color: transparent;
+}
+.search::before {
+    content: url(img/search.png);
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -2px;
+    left: -8px;
+    filter: invert(100%);
+    color: transparent;
+}
+.watchList::before {
+    content: url(img/plus.png);
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -2px;
+    left: -8px;
+    filter: invert(100%);
+    color: transparent;
+}
+.originals::before {
+    content: url(img/originals.png);
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -2px;
+    left: -8px;
+    filter: invert(100%);
+    color: transparent;
+}
+.movies::before {
+    content: url(img/movie.png);
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -2px;
+    left: -8px;
+    filter: invert(100%);
+    color: transparent;
+}
+.tvshows::before {
+    content: url(img/series.png);
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -2px;
+    left: -8px;
+    filter: invert(100%);
+    color: transparent;
+}
+
+.link {
+    height: 100%;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1.42px;
+    line-height: 1.07;
+}
+
